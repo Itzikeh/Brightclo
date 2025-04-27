@@ -1,19 +1,12 @@
 {
-  "name": "brith",
+  "name": "brightclo",
   "version": "1.0.0",
-  "main": "mcp-client.js",
+  "main": "simple-server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node simple-server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "@brightdata/mcp": "^1.7.0",
-    "cors": "^2.8.5",
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0"
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
   }
 }
